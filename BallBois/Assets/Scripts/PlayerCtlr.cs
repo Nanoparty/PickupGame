@@ -36,7 +36,7 @@ public class PlayerCtlr : MonoBehaviour {
             other.gameObject.SetActive(false);
             count++;
             countText.text = "Cubes: " + count.ToString();
-            if (count >= 5) {
+            if (count >= 12) {
                 winText.text = "YOU WIN";
             }
         }
